@@ -1,0 +1,259 @@
+.all-hight{
+   
+    width: 100%;
+    background: url("https://www.echannelling.com/images/body-bg.svg");
+  
+}
+
+.n-appoinment{
+    padding: 20px;
+    font-size: 12px;
+}
+
+
+.set_background,.center-div{
+    background: url("https://www.echannelling.com/images/homeTile/hometile-bg.svg");
+
+}
+
+
+.n-square{
+    display: flex;
+    gap: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+    justify-content: space-between;
+   
+    display: grid;
+  
+    grid-gap: 20px; 
+    grid-template-columns: repeat(4, 1fr);
+   
+    
+   
+    
+    
+}
+
+.s-s{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+.s-contains {
+   
+  
+    display: flex;
+    width: 100%;
+    border-radius: 30px;
+    flex-direction: column;
+    margin: 20px;
+    background-color: aliceblue;
+    cursor: pointer;
+  
+}
+
+
+
+
+.s-contains:hover {
+  background-color: #1466be; /* Change background color on hover */
+  transform: scale(1.1); 
+  
+
+.n-bold{
+    color: black;
+
+}
+
+
+.normal-f,.bold_hospital{
+    color: white;
+    
+}
+
+
+
+}
+
+.back-add{
+
+padding: 10px;
+    background: url("https://www.echannelling.com/images/homeTile/hometile-bg.svg");
+
+
+}
+
+
+.center-div{
+    text-align: center;
+}
+
+
+
+
+
+
+
+.n-bold{
+    font-weight: bold;
+    color: #3b647e;
+    text-align: center;
+}
+
+.normal-f,.bold_hospital{
+    color: #3b647e
+}
+
+.bold_hospital{
+    font-size: 14px;
+
+}
+
+
+
+.img-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;   
+    border-radius: 50px;
+    background: url("https://www.echannelling.com/images/homeTile/hometile-bg.svg");
+
+
+}
+
+.t-title{
+    margin: 10px;
+}
+
+
+
+
+
+.n-dr-image {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+@keyframes colorChange {
+    0% {
+        color: initial; 
+    }
+    50% {
+        color: #FF5733; 
+    }
+    100% {
+        color: initial; 
+    }
+}
+
+
+.animation-today {
+    font-weight: bold;
+    animation: colorChange 3s linear infinite; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.n-appoinment-btn {
+    width: 150px;
+    height: 40px;
+margin: 10px;
+    background-color: #a0bad5; 
+    color: #fff;
+    padding: 10px 20px; 
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+/* Hover style */
+.n-appoinment-btn:hover {
+    background-color: #0056b3; 
+}
+
+
+.n-appoinment-btn:active {
+    background-color: #003d80; 
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .n-square {
+        margin: 10px; 
+        width: 93%; 
+        display: flex;
+        flex-direction: column;
+
+
+        
+    display: grid;
+  
+    grid-gap: 20px; 
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    }
+
+    .s-contains {
+        background-color: #f3f7ff;
+        width: 85%; 
+        display: flex;
+    
+    flex-direction: column;
+   
+
+    }
+
+
+    .img-name{
+        background: url("https://www.echannelling.com/images/homeTile/hometile-bg.svg");
+
+    }
+
+    .n-appoinment-btn {
+        transition: background-color 0.3s ease; 
+        width: 93%;
+        display: flex;
+       
+        align-items: center;
+        justify-content: center;
+       
+    }
+}

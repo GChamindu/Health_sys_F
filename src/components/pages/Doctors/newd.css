@@ -1,0 +1,167 @@
+.br {
+    display: flex;
+}
+
+.allsq {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    display: grid; 
+    grid-template-columns: repeat(1, 1fr); 
+    gap: 20px; 
+    padding: 20px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 576px) {
+    /* (phones) */
+    .allsq {
+        grid-template-columns: repeat(2, 1fr); /* Two columns */
+    }
+}
+
+@media (min-width: 768px) {
+  
+    .allsq {
+        grid-template-columns: repeat(3, 1fr); 
+    }
+}
+
+@media (min-width: 992px) {
+   
+    .allsq {
+        grid-template-columns: repeat(4, 1fr); /* Four columns */
+    }
+}
+
+.square {
+    background-color: rgb(198, 231, 251);
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px; 
+    width: 250px;
+    box-sizing: border-box; 
+    box-shadow: 0 20px 20px rgba(145, 140, 140, 0.1);
+    margin-left: 40px;
+   
+}
+
+.sup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.dimage {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.sdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ddetails {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.dname b {
+    font-size: 18px;
+}
+
+.dtime {
+    font-size: 14px;
+    color: #888;
+}
+
+.book-d {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+.book-d {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out; /* Added transition */
+}
+
+/* Hover animation for .book-d button */
+.book-d:hover {
+    background-color: #0056b3; 
+    transform: scale(1.05); 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.today-animation{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+/* Add this to your newd.css stylesheet */
+@keyframes colorChange {
+    0%, 100% {
+      color: #ec173e; /* Start and end color */
+    }
+    50% {
+      color: #0a7d06; /* Middle color */
+    }
+  }
+  

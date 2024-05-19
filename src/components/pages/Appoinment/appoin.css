@@ -1,0 +1,206 @@
+@keyframes profileAnimation {
+    0%, 100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    25%, 75% {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+    50% {
+        transform: scale(0.9);
+        opacity: 0.6;
+    }
+}
+
+.all-content {
+    display: flex;
+    margin: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+    
+}
+
+.img-selection{
+    text-align: center;
+}
+
+.left-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-right: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+   
+  
+    transition: background-color 0.3s ease;
+}
+
+
+.d-up{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.d-hr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    border-top: 1px solid #ccc;
+    padding: 20px 0;
+}
+
+.dr-profile {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #9d9b9b;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+  
+    
+    animation: profileAnimation 5s infinite alternate; /* Apply the animation */
+}
+
+
+.d-profiles{
+    display: inline-block;
+    padding: 5px 10px;
+  
+    color: #3498db; 
+    border-radius: 5px;
+    font-weight: bold;
+   
+}
+
+
+
+
+  
+  .er-h {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #ff3333;
+  }
+  
+  .er-s {
+    font-size: 0.9em;
+    color: #ff3333;
+  }
+  
+  /* Animation for the warning box */
+  @keyframes fadeInOut {
+    0%, 100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+  
+  .error-limit {
+    animation: fadeInOut 3s infinite;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    flex: 2;
+    margin: 0 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  
+    transition: background-color 0.3s ease;
+  }
+
+  .center-content:hover {
+    background-color: #c2e0f0; /* Background color on hover */
+}
+
+
+
+
+
+
+.right-content {
+  
+height: 70%;
+
+  flex: 1;
+
+  margin-left: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+ 
+  transition: background-color 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.r-content{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+

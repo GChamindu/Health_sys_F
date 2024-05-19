@@ -1,0 +1,394 @@
+body{
+    font-family: "Poppins",sans-serif!important;
+}
+
+.red-text{
+    color: red;
+  
+}
+
+.new-all-content{
+    display: flex;
+    
+    margin-left: 150px;
+    margin-right: 150px;
+    gap: 40px;
+
+
+
+}
+
+.n-left{
+    display: flex;
+    flex-direction: column;
+    overflow: auto; 
+    background-image: url("https://www.echannelling.com/images/body-bg.svg");
+
+}
+
+.n-left-up{
+   
+margin-top: 20px;
+}
+
+.n-profile{
+
+   
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    
+
+
+}
+
+.n-profile-title{
+    color: white;
+    padding: 10px;
+}
+
+.fill{
+    color: #2c67d8;
+    font-weight: bold;
+    font-size: 22px;
+    margin-left: 10px;
+}
+
+.n-i-p{
+    width: 200px;
+    margin: 10px;
+  
+}
+
+
+
+
+
+
+
+
+.p-n{
+    
+}
+
+
+.n-others{
+    margin: 10px;
+    padding: 10px;
+}
+
+.n-name,.n-n{
+    color: #3b647e;
+  margin-top: 20px;
+}
+
+
+.n-contains{
+   
+
+}
+
+
+.n-docenter{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    justify-content: flex-start;
+
+
+
+}
+
+.n-imageadd{
+   
+    top: 0; 
+    left: 0.2;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #9d9b9b;
+   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.upper-border {
+ width: 100%;
+    display: flex;
+    flex: 1;
+
+    
+    
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;    
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(90deg, #2c67d8, #2badc2), url("https://www.echannelling.com/images/body-bg.svg");
+    height: 50px;
+}
+
+
+.n-drname{
+    color: #4d5868;
+    font-weight: bold;
+}
+
+.n-profile-title {
+  
+}
+
+
+
+
+
+
+
+
+
+
+/* right side css ..................................................*/
+
+
+
+
+.n-right{
+    display: flex;
+  flex: 2;
+  gap: 30px;
+  flex-direction: column;
+  
+}
+
+
+.n-right-up{
+  
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.patient-details{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.dt{
+   
+   
+}
+
+
+
+
+.n-right-down{
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  
+}
+
+
+
+
+
+
+
+.payment-cost{
+    display: flex;
+    margin-left: 30px;
+    margin-right: 25px;
+}
+
+.c-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.c-right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+.n-h-p{
+   margin-left: 10px;
+    color: #2c67d8;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* center css ..................................................................*/
+
+
+
+
+.n-center{
+    display: flex;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+
+ flex: 5;
+    flex-direction: column;
+}
+
+.f-border{
+    height: 100px;
+   
+    background-image: linear-gradient(90deg, #2c67d8, #2badc2), url("https://www.echannelling.com/images/body-bg.svg");
+}
+.n-form{
+    
+    display: flex;
+    flex-direction: column;
+
+}
+
+.new-f-content{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.n-f-name{
+    display: flex;
+  
+}
+.n-title{
+    margin: 20px;
+}
+.n-inputs{
+    margin: 20px;
+}
+
+
+
+
+.i-radio{
+    display: flex;
+}
+
+
+.n-inp{
+   margin-left: 20px;
+   margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+   
+
+    .new-all-content {
+        margin-left: 20px;
+        margin-right: 20px;
+        gap: 10px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .n-right {
+        width: 100%;
+       
+        flex-direction: column;
+    }
+
+    .n-center {
+        
+        order: 2; 
+    }
+}
+
+
+
+
+
+
+
+.see-more {
+ 
+ border-radius: 10px;
+ padding: 6px;
+ margin: 5px;
+ margin-top: 10px;
+ cursor: pointer;
+  }
+  
+  .see-more:hover {
+    color: white;
+    background-color: #0056b3; /* Change background color on hover */
+  }
+
+  .er-red {
+   font-size: 10px;
+   color: red;
+  }
+  
+
+
+
+
+  

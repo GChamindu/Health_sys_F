@@ -1,0 +1,117 @@
+.question {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 200px;
+  margin-top: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 150px;
+  }
+  body {
+    font-family: "League Spartan", sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-family: "Rubik", sans-serif;
+  }
+  .q-up {
+    display: flex;
+    flex: 3;
+  
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .q-up-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .q-header {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .first-header {
+    font-weight: bold;
+  }
+  
+  .header-2 {
+    color: #2c78ce;
+    font-weight: bold;
+  }
+  .first-header {
+    display: flex;
+  }
+  
+  .q-span {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .q-down {
+    display: flex;
+    flex: 7;
+    flex-direction: column;
+    gap: 5;
+  }
+  
+  .down-center {
+    border: 1px solid rgb(237, 233, 233);
+  }
+  
+  .down-bottom {
+    margin-top: 15px;
+  }
+  
+  .set-padding {
+  }
+  
+  .down-center-up {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+  }
+  .down-center-down {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #747789;
+  }
+  
+  .span-one,
+  .span-two {
+    color: #747789;
+  }
+  
+  .set-green {
+    color: #3b647e;
+  }
+  
+  @media (max-width: 768px) {
+    .question {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  
+    .q-up {
+      flex-direction: column;
+    }
+  
+    .q-down {
+      gap: 10px;
+    }
+  
+    .down-center {
+      border: none;
+    }
+  
+    .down-center-up,
+    .down-center-down {
+      padding: 10px;
+    }
+  }
+  

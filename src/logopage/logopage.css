@@ -1,0 +1,15 @@
+.logo-up{
+    display: flex;
+}
+
+.img-l{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    display: none;
+}
+
+.img-r{
+    width: 200px;
+    height: 100px;
+}

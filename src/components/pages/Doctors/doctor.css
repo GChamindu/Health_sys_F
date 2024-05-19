@@ -1,0 +1,81 @@
+.doctors {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .showdoctors {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    gap: 30px;
+    margin-top: 100px; 
+  }
+  
+  @media (max-width: 768px) {
+    .showdoctors {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .dpic {
+    width: 30%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .dodetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .tit {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  span {
+    margin-bottom: 10px;
+  }
+  
+  buttons {
+    width: 300px;
+    background-color: #2196f3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    cursor: pointer;
+    
+  }
+  
+  .tdy:hover {
+   
+    display: inline-block;
+    animation: pulse 2s infinite;
+    background-color: #81beda;
+    color: #fff; 
+    padding: 5px 10px; 
+    border-radius: 4px; 
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  

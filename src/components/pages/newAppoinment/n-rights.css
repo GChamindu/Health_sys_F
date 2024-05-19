@@ -1,0 +1,150 @@
+.n-right{
+    display: flex;
+  flex: 2;
+  gap: 30px;
+  flex-direction: column;
+  
+}
+
+
+.n-right-up{
+  
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.patient-details{
+    display: flex;
+    flex-direction: column;
+ 
+    margin-left: 10px;
+
+}
+
+.d-l{
+    color: #3b647e;
+    font-weight: bold;
+   
+}
+.p-d-n{
+    color: #3b647e;
+    font-size: 14px;
+
+   
+    
+}
+
+.dt{
+ 
+
+   
+   
+}
+
+
+
+
+.n-right-down{
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  
+}
+
+
+
+
+
+
+
+.payment-cost{
+    display: flex;
+    margin-left: 30px;
+    margin-right: 25px;
+}
+
+.c-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.c-right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+
+
+
+.cost-details{
+    color: #3b647e;
+    font-size: 12px;
+}
+
+.cost-total{
+   font-weight: bold;
+   color: #3b647e;
+
+}
+
+
+
+
+.n-h-p{
+    
+    color: #2c67d8;
+    font-weight: bold;
+}
+
+
+.p-btn{
+    border-radius: 10px;
+    background-color:      #2c60dc;
+  padding: 10px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+
+.p-btn:hover {
+    background-color: #1e44a0; 
+    transform: scale(1.05); 
+    cursor: pointer; 
+  }
+
+
+
+  .see-more{
+ 
+  }
+
+
+
+
+  .error-limit {
+    margin-top: 10px;
+    background-color: #ffe6e6; 
+    border: 1px solid #ff9999; 
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .error-limit::before {
+    content: "\26A0"; 
+    font-size: 24px;
+    color: #ff6666;
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .er-h{
+   
+    font-weight: bold;
+  }
+
+  .er-s{
+    font-weight: bold;
+  }

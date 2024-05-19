@@ -1,0 +1,92 @@
+body {
+    font-family: "League Spartan", sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-family: "Rubik", sans-serif;
+  }
+  
+  .banner-contains {
+    display: flex;
+    margin-left: 160px;
+    margin-right: 160px;
+  }
+  .banner_content {
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
+  
+  .banner-left {
+    border-bottom-left-radius: 30px;
+    border-bottom: 1px solid #117a65;
+  
+    display: flex;
+    flex-direction: column;
+    flex: 6;
+    background: linear-gradient(to right, #2c60dc, #2c78ce, rgba(43, 254, 205, 0.7));
+    /*background-color: #117A65;*/
+  
+    padding: 50px;
+  }
+  .banner-left-up {
+    display: flex;
+  }
+  
+  .banner-left-down {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .banner-right {
+    display: flex;
+    border-top-right-radius: 30px;
+    border-top: 1px solid #117a65;
+    justify-content: center;
+    flex: 3;
+    background: rgba(43, 254, 205, 0.7);
+  
+    /* background-color: #117A65;*/
+  
+    padding: 50px;
+  }
+  
+  .banner-header {
+    color: white;
+  }
+  
+  .banner-span {
+    color: #e2e4e3;
+  }
+  
+  .icon-banner {
+    color: white;
+  
+    font-size: 52px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  
+  @media (max-width: 768px) {
+    .banner-contains {
+      flex-direction: column;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  
+    .banner-left,
+    .banner-right {
+      flex: auto;
+      border-radius: 0;
+      border: none;
+      padding: 20px;
+    }
+  
+    .banner-left-up,
+    .banner-left-down {
+      flex-direction: column;
+    }
+  
+    .icon-banner {
+      font-size: 36px;
+    }
+  }
+  

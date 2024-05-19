@@ -1,0 +1,198 @@
+.home {
+    display: flex;
+  
+    margin-left: 150px;
+    margin-right: 150px;
+    gap: 30px;
+    margin-bottom: 150px;
+    margin-top: 20px;
+  }
+  body {
+    font-family: "League Spartan", sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-family: "Rubik", sans-serif;
+   
+  }
+  .home-left {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 1px solid rgb(215, 211, 211);
+    flex: 3;
+    margin: 20px;
+  }
+  .left-border-span,
+  .left-border-span-c {
+    margin: 10px;
+    margin: 10px;
+    border: 1px solid;
+    border-radius: 50px;
+    border: 1px solid rgb(163, 160, 160);
+    align-items: center;
+    background-color: white;
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+  }
+  
+  .left-border-span-c {
+    color: #3b647e;
+
+    border: 1px solid #2c78ce;
+    background-color: #2c78ce;
+    color: white;
+  }
+  
+  .around-border {
+    transform: translateX(10px) translateY(-10px);
+    background-color: white;
+    margin-right: 120px;
+    margin-left: 100px;
+  
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .home-center,
+  .home-center-c {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 1px solid rgb(215, 211, 211);
+    flex: 3;
+    margin: 20px;
+  }
+  
+  .home-center-c {
+    border: 2px solid #2c78ce;
+  }
+  
+  .span-center-title {
+    color: #767c83;
+  }
+  
+  .home-right {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 1px solid rgb(215, 211, 211);
+    flex: 3;
+    margin: 20px;
+    height: 620px;
+  }
+  
+  .home-left,
+  .home-center {
+    height: auto;
+  }
+  
+  .home-left {
+    height: 620px;
+  }
+  
+  .home-left-contain {
+    margin: 25px;
+  }
+  .up-header-span {
+    display: flex;
+  }
+  
+  .up-header {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .up-header-s {
+    font-size: 14px;
+  }
+  
+  .home-left-center {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .center-label-content {
+    display: flex;
+  }
+  .center-label {
+    width: 25px;
+    height: 25px;
+    border-radius: 30px;
+  }
+  .span-center-title {
+    margin-left: 10px;
+  }
+  
+  .home-down-btn,
+  .home-down-btn-c {
+    width: 100%;
+    color: #2c78ce;
+    border-radius: 50px;
+    border: 1px solid #2c78ce;
+    background-color: white;
+    height: 40px;
+    font-weight: 600;
+  }
+
+  .home-down-btn-c:hover{
+    color: white;
+  }
+  
+  .home-down-btn-c {
+    background-color: #2c78ce;
+    color: white;
+  }
+  
+  .down-s {
+    color: #767c83;
+  }
+  
+  .down-s-c {
+    color: #61ce70;
+    font-weight: 500;
+  }
+  
+  .up-header-s {
+    color: #767c83;
+  }
+  
+  .left-border-span {
+    color: #767c83;
+    font-weight: bold;
+  }
+  
+  .new-add-image {
+    width: 18px;
+    height: 18px;
+  }
+  
+  .new-dd {
+    font-size: 14px;
+    color: rgb(32, 185, 216);
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+    .home {
+      flex-direction: column;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 40px;
+    }
+  
+    .home-left,
+    .home-center,
+    .home-right {
+      margin: 10px;
+    }
+  
+    .left-border-span,
+    .left-border-span-c {
+    }
+  
+    .around-border {
+      margin-right: 130px;
+      margin-left: 130px;
+    }
+  }
+  

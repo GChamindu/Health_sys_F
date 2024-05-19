@@ -1,0 +1,148 @@
+body{
+  font-family: "Poppins",sans-serif!important;
+ 
+}
+
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+
+  .nav-logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 60%;
+  }
+  
+  .logoname{
+    color: #0cc029;
+    font-weight: bold;
+
+  }
+
+
+  .up {
+    display: flex;
+    justify-content: center; 
+    margin: 20px;
+    border-bottom: 2px solid gray;
+  }
+  
+  .contain {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: flex-end; 
+    gap: 10px;
+    align-items: center;
+    margin: 0 20px 10px auto; 
+    font-weight: bold;
+    font-size: 19px;
+  }
+  
+  .alink,
+  .dlink,
+  .llink {
+    text-decoration: none;
+    border-radius: 10px;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .alink {
+    color: #3b647e;
+  }
+  
+  .dlink {
+    color: #3b647e;
+  }
+  
+  .llink {
+    background-color: #2c60dc;
+    color: aliceblue;
+    padding: 10px;
+  }
+  .alink:hover
+  {
+    opacity: 0.8;
+    color: #2c60dc;
+    cursor: pointer;
+  }
+ 
+  .dlink:hover,
+  .llink:hover {
+    opacity: 0.8;
+    color: white;
+    cursor: pointer;
+  }
+  
+  
+  @media (max-width: 768px) {
+   
+    .up {
+      flex-direction: column; 
+      align-items: center; 
+    }
+  
+    .contain {
+      justify-content: center; 
+      margin: 0 auto 10px auto; 
+    }
+  }
+  
+
+
+
+
+  /* home.css */
+.slideshow-container {
+  max-width: 1000px; 
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slideshow-image img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+.right-side-icon {
+
+}
+
+
+
+
+
+@keyframes logoAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+.logoname {
+  animation: logoAnimation 2s infinite;
+
+  color: #0cc029;
+}
+
+@media (max-width: 768px) {
+  .head {
+    margin-left: 20px; 
+    animation: none; 
+    
+  }
+}

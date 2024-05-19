@@ -1,0 +1,198 @@
+.footer {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://www.echannelling.com/images/body-bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    position: relative; 
+
+    
+}
+.footer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to right, #2c60dc, #2c78ce, rgba(43, 254, 205, 0.7));
+    z-index: -1; 
+}
+
+
+.f-up {
+    display: flex;
+    gap: 20px;
+    margin-top: 70px;
+    margin-left: 30px;
+}
+.f-left {
+    margin: 50px;
+}
+.f-l-contains {
+    display: flex;
+    flex-direction: column;
+}
+.f-center {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    margin: 50px;
+}
+.f-others {
+    display: flex;
+    flex-direction: column;
+}
+.f-right {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    margin: 50px;
+}
+.f-down {
+    display: flex;
+    margin-top: 20px;
+    margin: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.f-link-up{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 18px;
+}
+
+.f-others{
+    font-size: 34px;
+    color: white;
+    margin-top: 13px;
+}
+
+
+.f-l{
+    text-decoration: none;
+    color: rgb(232, 219, 219);
+}
+
+.f-l-a{
+    color: rgb(232, 219, 219); 
+   
+}
+
+
+.footer-icons{
+    display: flex;
+    gap: 20px;
+    margin-right: 100px;
+}
+
+.f-l-b{
+    color: rgb(232, 219, 219);   
+    font-size: 18px; 
+    margin-left: 100px;
+}
+
+.f-icon{
+    font-size: 20px;
+    color: white;
+    
+}
+
+.hr-b{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    
+}
+
+
+.f-up, .f-left, .f-l-contains, .f-center, .f-others, .f-right, .f-down {
+   
+}
+
+.footer-icons {
+   
+}
+
+
+@media (max-width: 768px) {
+   
+
+    .footer {
+       
+        margin-top: 20px;
+    }
+
+    .f-up {
+       
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .f-right {
+        
+        margin: 20px;
+    }
+
+    .f-down {
+        
+        flex-direction: column;
+    }
+
+    .footer-icons {
+       
+        margin-right: 20px;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+.f-link-up {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 18px;
+    transition: transform 0.3s ease;
+}
+
+
+.f-link-up:hover {
+    color: aliceblue;
+    transform: scale(1.2); 
+}

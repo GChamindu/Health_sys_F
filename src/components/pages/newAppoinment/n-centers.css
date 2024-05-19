@@ -1,0 +1,52 @@
+.n-center{
+    display: flex;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    margin-top: 20px;
+    
+
+ flex: 5;
+    flex-direction: column;
+}
+
+.f-border{
+    height: 100px;
+   
+    background: linear-gradient(90deg, #0074D9, #ffffff);
+}
+.n-form{
+    
+    display: flex;
+    flex-direction: column;
+
+}
+
+.new-f-content{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.n-f-name{
+    display: flex;
+  
+}
+.n-title{
+    margin: 20px;
+}
+.n-inputs{
+    margin: 20px;
+}
+
+
+
+
+.i-radio{
+    display: flex;
+}
+
+
+.n-inp{
+   margin-left: 20px;
+   margin-right: 20px;
+}
